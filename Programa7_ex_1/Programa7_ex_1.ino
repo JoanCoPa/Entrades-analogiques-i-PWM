@@ -58,7 +58,7 @@ punt();
 ratlla();
 ratlla();
 ratlla();
-  espaiL(); //Letra J en morse
+  espaiL(); //Lletra J en morse
 
 ratlla();
 ratlla();
@@ -66,7 +66,7 @@ ratlla();
   espaiL(); //Lletra O en morse
 
 punt();
-  espaiP(); //Letra E en morse
+  espaiP(); //Lletra E en morse
 
 punt();
 punt();
