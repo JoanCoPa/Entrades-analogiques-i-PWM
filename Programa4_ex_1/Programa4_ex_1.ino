@@ -21,10 +21,10 @@ void setup() {
 
 //****** Loop ************************************************************
 void loop() {
- duration = analogRead(A0)*10;
+ duration = analogRead(A0);
  frequency = analogRead(A1);// Configuració d'entrades analògiques
   
   tone(pin9,frequency,duration);
 
-   delay(1000);
+   delay(2*duration);
 }
