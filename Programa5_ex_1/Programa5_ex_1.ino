@@ -35,5 +35,5 @@ void loop() {
   freq = map(freq, 0, 1023, 2000, 0);
   
   tone(xiulet, freq, 100);
-  delay(100);
+  delay(200);
   }
